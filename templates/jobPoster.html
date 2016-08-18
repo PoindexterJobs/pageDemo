@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Job Analysis</title>
+<link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+
+</head>
+<body id="main_body" >
+	<img id="top" src="static/images/poindexter2.png" alt="">
+	<div id="form_container">
+
+		<h1><a>Job Analysis</a></h1>
+
+
+			<p></p>
+		</div>
+			<ul >
+
+					<li id="li_1" >
+		<label class="description" for="element_1">Name </label>
+		<div>
+			<input id="element_1" name="element_1" class="element text small" type="text" maxlength="255" value=""/>
+		</div>
+		</li>		<li id="li_3" >
+		<label class="description" for="element_3">Job Category </label>
+		<div>
+		<select class="element select medium" id="element_3" name="element_3">
+			<option value="" selected="selected"></option>
+<option value="1" >Programmer Analyst</option>
+<option value="2" >Epidemiologist</option>
+<option value="3" >Business Analyst</option>
+<option value="4" >Data Analyst</option>
+<option value="5" >Data Scientist</option>
+<option value="6" >Statistician</option>
+
+		</select>
+		</div>
+		</li>		<li id="li_4" >
+		<label class="description" for="element_4">Enter Resume </label>
+		<div>
+			<textarea id="element_4" name="element_4" class="element textarea medium"></textarea>
+		</div>
+		</li>		<li id="li_5" >
+		<label class="description" for="element_5">Job Match Score </label>
+		<div>
+			<input id="element_5" name="element_5" class="element text medium" type="text" maxlength="255" value=""/>
+		</div>
+		</li>		<li id="li_6" >
+		<label class="description" for="element_6">Recommended Job Search </label>
+		<div>
+			<input id="element_6" name="element_6" class="element text medium" type="text" maxlength="255" value=""/>
+		</div>
+		</li>
+
+					<li class="buttons">
+			    <input type="hidden" name="form_id" value="1151880" />
+
+				<input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
+		</li>
+			</ul>
+		</form>
+
+
+	</body>
+</html>
